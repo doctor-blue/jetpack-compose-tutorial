@@ -1,8 +1,10 @@
 package com.devcomentry.jetpackcomposeexample
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.layout.Column
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,6 +14,8 @@ class MainActivity : AppCompatActivity() {
 //            TextDemo()
 //            ButtonDemo()
 //            ImageDemo()
+            StateDemo()
+
         }
     }
 
